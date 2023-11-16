@@ -4,7 +4,7 @@ import Fiber from "../components/Fiver";
 ---
 
 <Layout>
-	<h1>Lynx</h1>
+	<!-- <h1>Lynx</h1>
 
 	<p>
 		The Lynx is a small cat. It is a genus with four species.[1] The four
@@ -68,11 +68,32 @@ import Fiber from "../components/Fiver";
 		The Iberian lynx is the most endangered feline in the world. There are
 		only two populations (together, 300 animals), in the southern Spain.
 		Hunting lynxes is illegal in many countries.
-	</p>
+	</p> -->
+	<div>
+		<p class="">buy this domain</p>
+		<h3 id="email"><a href="mailto:buy@lynx.africa">buy@lynx.africa</a></h3>
+	</div>
 </Layout>
 
 <style>
-	body {
+	div {
+		/* center vert and horz */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* full screen */
+		height: 100dvh;
+		width: 100dvw;
+	}
+	* {
+		color: white;
+		font-family: monospace;
+	}
+	#email {
+		font-weight: bold;
+	}
+	/* body {
 		background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Lynx_kitten.jpg/800px-Lynx_kitten.jpg");
 		background-size: cover;
 	}
@@ -86,5 +107,5 @@ import Fiber from "../components/Fiver";
 		width: fit-content;
 		padding: 10px;
 		font-smooth: auto;
-	}
+	} */
 </style>
